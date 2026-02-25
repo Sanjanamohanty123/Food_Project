@@ -2,7 +2,7 @@
 
 A simple Food Ordering Web App built using HTML, CSS, and JavaScript.
 
- Live Demo: 
+ Live Demo: https://sanjanamohanty123.github.io/Food_Project/
 ## Features
 - Add to Cart
 - Remove Items
