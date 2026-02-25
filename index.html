@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QuickBite - Food Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>QuickBite</h1>
+
+    <div class="container">
+
+        <div class="food">
+            <h3>Burger</h3>
+            <p>₹120</p>
+            <button onclick="addToCart('Burger',120)">Add to Cart</button>
+        </div>
+
+        <div class="food">
+            <h3>Pizza</h3>
+            <p>₹250</p>
+            <button onclick="addToCart('Pizza',250)">Add to Cart</button>
+        </div>
+
+        <div class="food">
+            <h3>Sandwich</h3>
+            <p>₹80</p>
+            <button onclick="addToCart('Sandwich',80)">Add to Cart</button>
+        </div>
+
+    </div>
+
+    <h2>Your Cart</h2>
+    <ul id="cartItems"></ul>
+    <h3 id="total">Total: ₹0</h3>
+
+    <button class="order-btn" onclick="placeOrder()">Place Order</button>
+
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
